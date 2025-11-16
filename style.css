@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+
+    
+        body{
+            font-family: "IBM Plex Sans Thai",tahoma;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #e1f3f4;
+            color: rgb(0, 0, 0);
+            padding: 10px 50px 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            right: 0;
+            left: 0;
+        }
+        .logo{
+            margin-left: 20px;
+        }
+        nav a{
+            color: rgb(19, 19, 19);
+            text-decoration: none;
+            padding: 14px 16px;
+            display: inline-block;
+        }
+        #content{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+        footer{
+            background-color: #e1f3f4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            margin-top: 15px;
+            border-radius: 30px;
+            background-color: rgb(83, 219, 106);
+            color:rgb(50, 10, 122);
+            border: solid 1px #333;
+        }
+        button:hover{
+            background-color: rgb(218, 12, 12);
+            color: rgb(8, 6, 1);
+        }
